@@ -27,7 +27,7 @@ echo install pm2
 sudo npm install pm2@latest -yg &&
 
 echo "stop all running apps just in case (idempotency)"	
-pm2 stop all
+#pm2 stop all
 
 pm2 start app.js
 
